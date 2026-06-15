@@ -7,14 +7,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 </div>
 
-> ## ⚠️ SECURITY NOTICE
->
-> **This code has not been audited and is under active development. Use at your own risk.**
->
-> Not recommended for production use with real funds without a thorough security review. The authors and contributors are not responsible for any loss of funds or damages resulting from the use of this library.
-
----
-
 A canonical, minimal on-chain program for atomic delivery-versus-payment (DvP) swaps between two parties on Solana. One transaction settles both legs simultaneously — no counterparty risk, no custodian, no intermediary.
 
 ## What it does
@@ -140,3 +132,7 @@ clients/typescript/  Codama-generated TypeScript client
 idl/             generated Codama IDL
 tests/integration-tests/   LiteSVM integration tests
 ```
+
+## Audit
+
+This program has been audited by [Cantina](https://cantina.xyz/portfolio/fe870bb4-d96d-4902-8aec-9dfcfa2d6a79).
